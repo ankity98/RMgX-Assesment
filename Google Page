@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+      
+        @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+    
+         
+            
+            
+            @font-face {
+  font-family: myFirst;
+  src: url(lol2.ttf);
+  font-weight:normal;
+}
+
+h1{
+  font-family: myFirst;
+  font-size:95px;
+  font-weight:400;
+  letter-spacing:-4px;
+}
+
+.inputContainer i {
+   position: absolute;
+}
+
+.inputContainer {
+   width: 100%;
+   margin-bottom: 10px;
+}
+.icon {
+   padding: 15px;
+   color: rgb(49, 0, 128);
+   width: 70px;
+   text-align: left;
+}
+            
+            
+            
+          .first{
+           
+ text-align: center;
+            
+            
+           
+          }
+             .second{
+           
+ position:relative;
+ top:200px;
+       }
+          input[type=text] {outline:none;
+             border: none;
+            border: 1px solid grey;
+  
+  border-radius: 30px 30px 30px 30px;
+}
+     
+#stuff{
+ text-align:center;
+ height:48px;
+}
+
+
+.extra{
+ 
+ margin:20px;
+ padding:10px;
+
+ 
+
+}
+
+a:link, a:visited {
+  background-color: #f0f7f2;
+
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #f0f7f2;
+  border:2px solid black;
+}
+a+a {
+  margin-left: 40px;
+
+}  
+            
+        
+        
+    </style>
+    <body>
+      <div class="second">
+    <div class="first">
+      <h1><span style="color:#0080ff">G</span><span style="color:#f03535">o</span><span style="color:#f0ab0c">o</span><span style="color:#0080ff">g</span><span style="color:#44c240">l</span><span style="color:#f03535">e</span></h1>
+      <div class="inputContainer">
+       <i class="fa fa-search icon"> </i>
+       <input type="text" id="stuff" size="60" >
+       
+      </div>
+      <div class="extra">
+       
+      <a href="#">Google Search   </a>
+      
+      <a href="#">I'm Feeling Lucky   </a>
+      
+      </div>
+    </div>
+    </div>
+    </body>
+        
+  
+    
+</html>
